@@ -9,7 +9,8 @@ const FormInput = (props) => {
         placeholder={props.placeholder}
         onChange={(e) => props.setUserName(e.target.value)}
       /> */}
-      <input placeholder={props.placeholder} ref={props.refer} />
+      {/* <input placeholder={props.placeholder} ref={props.refer} /> */}
+      <input placeholder={props.placeholder} name={props.name} />
     </div>
   );
 };
